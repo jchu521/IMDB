@@ -13,8 +13,10 @@
     "test:coverage": "jest — coverage"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.6.1",
     "@storybook/preset-typescript": "^3.0.0",
     "@types/enzyme": "^3.10.9",
+    "@types/react-redux": "^7.1.18",
     "@wojtekmaj/enzyme-adapter-react-17": "^0.6.3",
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
@@ -22,7 +24,8 @@
     "enzyme": "^3.11.0",
     "next": "11.0.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-redux": "^7.2.4"
   },
   "devDependencies": {
     "@babel/core": "^7.14.8",
