@@ -21,7 +21,6 @@ module.exports = {
     "/.next/",
     "/node_modules/",
     "/lib/",
-    "/tests/",
     "/coverage/",
     "/.storybook/",
   ],
