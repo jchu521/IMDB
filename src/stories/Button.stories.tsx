@@ -1,5 +1,5 @@
 import { storiesOf } from "@storybook/react";
-import Button from "./Button";
+import Button from "../components/Button";
 
 storiesOf("Button", module).add("with text", () => {
   return <Button text="Hello World" />;
