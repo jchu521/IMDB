@@ -1,0 +1,95 @@
+.cardWrapper {
+  position: relative;
+}
+
+.card {
+  position: relative;
+  display: inline-block;
+  background-color: black;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card__backgroundImgWrapper {
+  position: relative;
+  padding: 0 0 70px 0;
+}
+
+.card__backgroundImgWrapper:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, transparent 50%, black 100%);
+}
+
+.card__posterImgWrapper {
+  position: absolute;
+  bottom: 0;
+  margin-left: 1%;
+}
+
+.card__posterImg {
+  width: 78%;
+  position: relative;
+}
+
+.card__buttonCaption {
+  position: absolute;
+  bottom: 0;
+  padding-left: 26%;
+  padding-right: 3%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.card__buttonWraper {
+  padding-right: 16px;
+  color: white;
+}
+
+.card__caption {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.card__caption__top {
+  display: flex;
+  align-items: flex-end;
+}
+
+.card__caption__top__text {
+  font-size: 20px;
+}
+
+.card__caption__top__time {
+  color: #ffffffb3;
+  font-size: 15px;
+  padding-left: 5px;
+}
+
+.card__caption__bottom {
+  font-size: 15px;
+  color: #ffffffb3;
+  padding: 10px 0;
+}
+
+.card__bookmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  padding: 2px 2px 5px 2px;
+  background-color: rgba(255, 255, 255, 0.32);
+  opacity: 60%;
+}
+
+.card__bookmark:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
