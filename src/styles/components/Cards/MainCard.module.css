@@ -12,6 +12,10 @@
   cursor: pointer;
 }
 
+.card:hover .card__buttonWraper {
+  color: #f3ce13;
+}
+
 .card__backgroundImgWrapper {
   position: relative;
   padding: 0 0 70px 0;
@@ -24,18 +28,21 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(180deg, transparent 50%, black 100%);
+  background: linear-gradient(180deg, transparent 40%, black 100%);
 }
 
 .card__posterImgWrapper {
   position: absolute;
+  max-width: 108px;
+  max-height: 160px;
   bottom: 0;
-  margin-left: 1%;
+  left: 10px;
 }
 
 .card__posterImg {
-  width: 78%;
   position: relative;
+  max-width: 108px;
+  max-height: 160px;
 }
 
 .card__buttonCaption {
@@ -84,7 +91,7 @@
   top: 0;
   left: 0;
   color: white;
-  padding: 2px 2px 5px 2px;
+  padding: 2px;
   background-color: rgba(255, 255, 255, 0.32);
   opacity: 60%;
 }
